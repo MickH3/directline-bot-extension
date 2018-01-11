@@ -1,0 +1,23 @@
+
+    .chat-opener {display: block; width: 92px; position: fixed; z-index: 9984; bottom: 50px;
+        right: 20px; padding: 5px;}
+    .chat-opener a { display: block; text-align: center; color: #fff; text-decoration:none;}
+    .chat-opener a i {font-size: 48px;}
+    .chat-opener a span {font-weight: bold; display: block; text-align: center; font-family: Segoe UI, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 14px;}
+    .chat-window { width: 300px; padding: 0px; box-shadow: #000 0 0 15px; position: fixed; right: 20px; bottom: 50px; background-color: #fff; z-index:9999;}
+    .chat-window .heading { position: relative; color: #fff; height: 30px; font-family: Segoe UI, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 22px; padding: 5px;}
+    .chat-window .heading a {color: #fff; display: inline-block; padding: 0 5px;}
+    .chat-window #bot {position: relative; height: 400px;}
+    .chat-window #bot #wc-upload-input, .chat-window #bot .wc-upload {display: none;}
+    .chat-window #bot .wc-textbox { left: 5px}
+    .chat-window #bot .wc-header {display: none;}
+    .chat-window #bot .wc-adaptive-card { width: auto;}
+    .chat-window #bot .ac-container > div { white-space:normal !important;}
+    .chat-window #bot .wc-message-groups {top: 0px;}
+    .chat-window #bot .carousel {height: auto;}
+    .chat-window #bot input.wc-shellinput{font-size:16px;}
+
+    @media screen and (max-width: 480px) {
+        .chat-opener, .chat-window{position:fixed; bottom:30px; right:0}
+    }
+    

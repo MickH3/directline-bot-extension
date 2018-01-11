@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.0",
+    "libraryName": "directline-bot-extension",
+    "libraryId": "ae1a7066-f45a-4094-93db-6633bf7a1ab2",
+    "environment": "spo"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "directline-bot-extension-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/directlineBotExtension/DirectlineBotExtensionApplicationCustomizer.js",
+          "manifest": "./src/extensions/directlineBotExtension/DirectlineBotExtensionApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "node_modules/jquery/dist/jquery.min.js",
+      "globalName": "jQuery"
+    }
+  },
+  "localizedResources": {
+    "DirectlineBotExtensionApplicationCustomizerStrings": "lib/extensions/directlineBotExtension/loc/{locale}.js"
+  }
+}

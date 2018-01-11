@@ -1,0 +1,26 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Directline Bot Extension",
+    "id": "ae1a7066-f45a-4094-93db-6633bf7a1ab2",
+    "version": "1.2.0.0",
+    "iconPath": "gitIcon.png",
+    "includeClientSideAssets": true,
+    "features": [
+      {
+        "title": "Directline bot extension.",
+        "description": "A SharePoint Framework extension that deploys a bot chat interface to SharePoint pages.",
+        "id": "8eefd266-df7d-4d87-b314-90845b255b5d",
+        "version": "1.1.0.2",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/directline-bot-extension.sppkg"
+  }
+}
