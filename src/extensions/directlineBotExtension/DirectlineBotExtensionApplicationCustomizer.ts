@@ -69,7 +69,7 @@ export default class DirectlineBotExtensionApplicationCustomizer
           });
 
           App({
-            user: { id: _that.context.pageContext.user.loginName + "." + _that.properties.BotName, name: _that.context.pageContext.user.displayName },
+            user: { id: _that.context.pageContext.user.loginName + "." + _that.properties.BotId, name: _that.context.pageContext.user.displayName },
             botConnection: _that._botConnection,
             bot: { id: _that.properties.BotId, name: _that.properties.BotName},
             sendTyping: true
